@@ -10,18 +10,16 @@ const assignment = {};
  * Calculate and return the sum of the numbers in an array.
  * If you did Challenge - 1, remove the comment in the line just after this function
  * 
- * @param {Array} arrayOfNumbers the array of numbers to sum
- * @returns {number} the sum of the numbers
+
  */
 
-arrayOfNumbers=[1,3,4,5,5,3]
+let arrayOfNumbers=[1,3,4,5,5,3];
+
  function sumOfNumbers(arrayOfNumbers) {
     let sumArray = 0;
     for (let num of arrayOfNumbers) {
-        sumArray = sumArray + num
+        sumArray = sumArray + num}
         return sumArray
-    }
-
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
